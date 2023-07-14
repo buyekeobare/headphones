@@ -1,7 +1,12 @@
 @import url("https://www.fontsquirrel.com/fonts/source-sans-pro#link");
 @import url("https://www.fontsquirrel.com/fonts/Spin-Cycle-OT#link");
 
+body {
+display: flex;
+background-image: url(images/headphones_hero_1.jpg);
+background-size: cover;
 
+}
 
 /*Header and Menu
 =================*/
