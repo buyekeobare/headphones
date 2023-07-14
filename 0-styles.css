@@ -8,16 +8,16 @@ body {
 =================*/
 
 .logo-headphones {
-  justify-content: space-between;
   border: 1px;
   display: flex;
+  justify-content: space-between;
   padding: 19px;
   color: #FFF;
-  font-family: Source Sans Pro;
+  font-family; 
   font-size: 12px;
-  font-style: normal;
-  font-weight: 700px;
+  font-weight: 700;
   line-height: normal;
+  
 }
  
 .menu-link {
@@ -34,6 +34,24 @@ body {
   height: 32px;
   flex-shrink: 0;
 }
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#sub {
+  color: #FFF;
+  text-align: center;
+  font-family: source;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+
 
 button {
   background-color: #ff6565;
