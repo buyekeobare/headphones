@@ -43,11 +43,7 @@ main section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-main section h1, p {
-  color: #FFF;
-  text-align: center;
+  margin: 0;
 }
 
 #main-text {
@@ -58,6 +54,7 @@ font-size: 32px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+position: relative;
 padding-top: 372px;
 margin-bottom: 0;
 }
@@ -70,6 +67,7 @@ margin-bottom: 0;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  position: relative;
   margin-top: 0;
   padding-top: 0;
 }
@@ -101,3 +99,28 @@ line-height: 26px; /* 162.5% */
 padding-top: 50px;
 margin-top: 0;
 }
+
+#what-we-do {
+  color: #071629;
+  text-align: center;
+  font-family: SourceSansPro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;   
+  position: relative;
+  margin-top: 110px;
+  top: -80px;
+  }
+
+  #sub-text {
+  color: #071629;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  position: relative;
+  top: -80px;
+  }
