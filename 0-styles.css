@@ -24,12 +24,14 @@ text-decoration: none;
 padding: 10px;
 font-weight: 600;
 color: white;
+cursor: pointer;
 }
+
 nav a:hover {
 color: #fF6565
 }
 
-main {
+main section {
   height: 1000px;
   background-image: url(images/headphones_hero_1.jpg);
   background-repeat: no-repeat;
@@ -40,22 +42,64 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
-main div h1, p {
-color: white;
-text-align: center;
-
+main section h1, p {
+  color: #FFF;
+  text-align: center;
 }
 
 #main-text {
+color: #FFF;
+text-align: center;
 font-family: Source Sans Pro;
 font-size: 32px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+padding-top: 372px;
+margin-bottom: 0;
 }
 
+#main-sub-text {
+  color: #FFF;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  padding-top: 0;
+}
 
+html {
+  scroll-behavior: smooth;
+}
+
+button {
+  width: 162px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 22px;
+  background: #FF6565;
+  border: none;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+#main-body-text {
+color: #FFF;
+text-align: center;
+font-family: Source Sans Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+padding-top: 50px;
+margin-top: 0;
+}
 
 
