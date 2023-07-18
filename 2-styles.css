@@ -251,3 +251,48 @@ article p {
   font-weight: 400;
   line-height: 26px; /* 185.714% */
 }
+
+@media screen and (min-width: 768px) {
+
+  body{
+      width: 100%;
+  } 
+  section div, .pentagon{
+      flex-wrap: wrap;
+      column-gap: 5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  body{
+      width: 100%;
+  }
+  .menu ul{
+      flex-direction: column;
+     
+  }
+  .hamburger {
+    display: block;
+    order: 2;
+    cursor: pointer;
+    
+  }
+  .hamburger span{
+      background-color: var(--color-white);
+  }
+  nav {
+    display: none;
+    order: 3;
+    width: 100%;
+  }
+  .toggle-nav:checked ~ nav {
+    display: block;
+  }
+
+  section div, .pentagon {
+      flex-direction: column;
+      flex-wrap: wrap;
+      column-gap: 5rem;
+  }
+}

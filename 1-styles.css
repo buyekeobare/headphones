@@ -183,3 +183,47 @@ section div div p {
   height: 61.44px;
   flex-shrink: 0;
 }
+@media screen and (min-width: 768px) {
+
+  body{
+      width: 100%;
+  } 
+  section div {
+      flex-wrap: wrap;
+      column-gap: 5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  body {
+      width: 100%;
+  }
+  .menu nav {
+      flex-direction: column;
+     
+  }
+  .hamburger {
+    display: block;
+    order: 2;
+    cursor: pointer;
+    
+  }
+  .hamburger span {
+      background-color: #FFF;
+  }
+  nav {
+    display: none;
+    order: 3;
+    width: 100%;
+  }
+  .toggle-nav:checked ~ nav {
+    display: block;
+  }
+
+  section div {
+      flex-direction: column;
+      flex-wrap: wrap;
+      column-gap: 5rem;
+  }
+}
