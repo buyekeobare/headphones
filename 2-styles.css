@@ -136,10 +136,11 @@ section div div {
   align-items: center;
   display: flex;
   flex-direction: column;
+  flex-shrink: 0;
+  width: 207px;
 }
 
 section div div h2{
-  width: 207px;
   color: #071629;
   text-align: center;
   font-family: SourceSansPro;
@@ -150,7 +151,6 @@ section div div h2{
 }
   
 section div div p {
-  width: 207px;
   color: #071629;
   text-align: center;
   font-family: Source Sans Pro;
@@ -159,7 +159,6 @@ section div div p {
   font-weight: 400;
   line-height: 26px; /* 185.714% */
 }
-
 
 #sound {
   width: 94.2px;
@@ -187,47 +186,46 @@ section div div p {
 
 .pentagon{
 background-image: url(images/headphones_hero_2.jpg);
-height: 1000px
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 position: relative;
-display: flex;
-top: -80px
+top: 80px;
 justify-content: center;
-align-items: center;
-flex-direction: column;
+height: 650px;
 }
 
 .pentagon1 {
   background-image: url(images/pentagone.png);
-  width: 190px;
-  height: 190px;
   flex-shrink: 0;
   background-repeat: none;
   background-position: center;
-  position: relative;
   background-size: cover;
-  display: flex;
-  flex-direction: row;
-  
+  width: 140px;
+  height: 130px;
+  align-items: center;
+  justify-content: center;
 }
+
 .pentagon2 {
   color: #FFF;
   text-align: center;
   font-family: Source Sans Pro;
-  font-size: 46px;
+  font-size: 35px;
   font-style: normal;
   font-weight: 700;
   line-height: 26px; /* 56.522% */
+  padding-top: 20px;
 }
 
 .pentagon3 {
   color: #FFF;
   text-align: center;
   font-family: Source Sans Pro;
-  font-size: 14px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 185.714% */
+  padding-bottom: 30px;
 }
+
