@@ -1,32 +1,323 @@
-@import url("https://www.fontsquirrel.com/fonts/source-sans-pro#link");
-@import url("https://www.fontsquirrel.com/fonts/Spin-Cycle-OT#link");
+@import url(https://www.fontsquirrel.com/fonts/source-sans-pro#link);
+@import url(https://www.fontsquirrel.com/fonts/Spin-Cycle-OT#link);
 
-
-
-/*Header and Menu
-=================*/
-
-.header {
-border: 1px solid black;
-width: 80%;
-display: flex;
-justify-content: space-between;
-top: 18px;
-align-items: center;
+body {
+  padding: 0;
+  margin: 0;
 }
 
-.nav-menu .menu-items {
-  list-style-type: none;
+header {
+  border: 1px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 30px;
+  z-index: 1000;
+  position: relative;
+}
+
+
+nav a {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+
+nav a:hover {
+  color: #fF6565
+}
+
+main section {
+  height: 1000px;
+  background-image: url(images/headphones_hero_1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  top: -80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+.main-text {
+  color: #FFF;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  padding-top: 372px;
+  margin-bottom: 0;
+}
+
+#main-sub-text {
+  color: #FFF;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 button {
-  background-color: #ff6565;
-  color: white;
-  height: 36px;
-  width: 150px;
-  border-radius: 18px;
-  font-weight: bold;
-  font-size: 15px;
+  width: 162px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 22px;
+  background: #FF6565;
   border: none;
-  
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
 }
+
+.main-body-text {
+  color: #FFF;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  padding-top: 50px;
+  margin-top: 0;
+}
+
+#what-we-do {
+  color: #071629;
+  text-align: center;
+  font-family: SourceSansPro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;   
+  position: relative;
+  margin-top: 110px;
+  top: -80px;
+}
+
+#sub-text {
+  color: #071629;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  position: relative;
+  top: -80px;
+}
+
+section div {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+section div div {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 207px;
+}
+
+section div div h2{
+  color: #071629;
+  text-align: center;
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 144.444% */
+}
+  
+section div div p {
+  color: #071629;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+}
+
+#sound {
+  width: 94.2px;
+  height: 65.357px;
+  flex-shrink: 0;
+}
+
+#video {
+  width: 67.588px;
+  height: 76.8px;
+  flex-shrink: 0;
+}
+
+#music {
+  width: 51.66px;
+  height: 57.266px;
+  flex-shrink: 0;
+}
+
+#hearing {
+  width: 61.431px;
+  height: 61.44px;
+  flex-shrink: 0;
+}
+
+.pentagon{
+background-image: url(images/headphones_hero_2.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+position: relative;
+top: 80px;
+justify-content: center;
+height: 650px;
+}
+
+.pentagon1 {
+  background-image: url(images/pentagone.png);
+  flex-shrink: 0;
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  width: 140px;
+  height: 130px;
+  align-items: center;
+  justify-content: center;
+}
+
+.pentagon2 {
+  color: #FFF;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 56.522% */
+  padding-top: 20px;
+}
+
+.pentagon3 {
+  color: #FFF;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+  padding-bottom: 30px;
+}
+
+/* contact-us ########################## */
+.contact-us {
+  color: #071629;
+  text-align: center;
+  font-family: SourceSansPro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.contact-us > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+input[type=text]{
+  width: 25rem;
+  height: 3rem;
+  border: none;
+  border-bottom: 1px #979797;
+}
+
+::placeholder{
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+/* contact-us ########################## */
+
+/*footer ########################## */
+
+footer {
+  background-image: url(images/footer_background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 1400px;
+  height: 249px;
+  position: relative;
+  top: 120px;
+  flex-shrink: 0;
+}
+
+.footer-items {
+display: flex;
+justify-content: space-around;
+
+
+}
+
+#logo {
+  width: 161px;
+  height: 32px;
+  flex-shrink: 0;
+  cursor: pointer;
+  transform: scale(0.7)
+}
+
+#social-icons {
+  width: 130px;
+  height: 30px;
+  flex-shrink: 0;
+  cursor: pointer;
+  transform: scale(0.7)
+}
+
+ footer > p {
+  color: #FFF;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-self: flex-end;
+  cursor: pointer;
+}
+ 
+footer > p:hover {
+  opacity: 0.3516787588596344;
+}
+
+#social-icons:active {
+  opacity: 0.5;
+}
+
+#logo:active {
+  opacity: 0.5;
+}
+
+/*footer ########################## */
