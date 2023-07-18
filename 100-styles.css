@@ -184,19 +184,40 @@ section div div p {
   flex-shrink: 0;
 }
 
-.pentagon{
-background-image: url(images/headphones_hero_2.jpg);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-position: relative;
-top: 80px;
-justify-content: center;
-height: 650px;
-width: 1400px;
+article {
+  background-image: url(images/headphones_hero_2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  top: 80px;
 }
 
-.pentagon1 {
+article h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: SourceSansPro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 120px;
+}
+
+article p {
+  color: #FFF;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.pentagon {
   background-image: url(images/pentagone.png);
   flex-shrink: 0;
   background-repeat: none;
@@ -205,10 +226,13 @@ width: 1400px;
   width: 140px;
   height: 130px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  display: inline-block;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
-.pentagon2 {
+.pentagon1 {
   color: #FFF;
   text-align: center;
   font-family: Source Sans Pro;
@@ -216,10 +240,9 @@ width: 1400px;
   font-style: normal;
   font-weight: 700;
   line-height: 26px; /* 56.522% */
-  padding-top: 40px;
 }
 
-.pentagon3 {
+.pentagon2 {
   color: #FFF;
   text-align: center;
   font-family: Source Sans Pro;
@@ -227,11 +250,15 @@ width: 1400px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 185.714% */
-  padding-bottom: 30px;
 }
 
-/* contact-us ########################## */
-.contact-us {
+/* Contact us ####################*/
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-shrink: 0;
   color: #071629;
   text-align: center;
   font-family: SourceSansPro;
@@ -239,29 +266,40 @@ width: 1400px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  padding-top: 120px;
+  cursor: pointer;
 }
 
-.contact-us > form {
+form {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 32px;
+  padding-bottom: 60px;
 }
-input[type=text]{
-  width: 25rem;
-  height: 3rem;
+
+form input {
+  gap: 10px;
+  width: 335px;
+  justify-content: center;
+  align-items: flex-start;
   border: none;
-  border-bottom: 1px #979797;
+  border-bottom: 1px solid #979797;
+  padding-bottom: 10px;
+  cursor: pointer;
 }
 
-::placeholder{
-  font-size: 1.1em;
-  font-weight: bold;
+::placeholder {
+  color: #071629;
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
-/* contact-us ########################## */
+/* Contact us #################### */
 
-/*footer ########################## */
+/* Footer #################### */
 
 footer {
   background-image: url(images/footer_background.png);
@@ -273,12 +311,14 @@ footer {
   position: relative;
   top: 120px;
   flex-shrink: 0;
+
 }
 
-.footer-items {
-display: flex;
-justify-content: space-around;
-
+footer div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 91px;
 
 }
 
@@ -286,22 +326,31 @@ justify-content: space-around;
   width: 161px;
   height: 32px;
   flex-shrink: 0;
+  cursor: pointer;
 }
 
 #social-icons {
   width: 130px;
   height: 30px;
   flex-shrink: 0;
+  cursor: pointer;
 }
 
- footer > p {
+footer > p {
   color: #FFF;
   font-family: Source Sans Pro;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  cursor: pointer;
 }
 
-/*footer ########################## */
+footer > p:hover {
+  opacity: 0.3516787588596344;
+}
+/* Footer #################### */
