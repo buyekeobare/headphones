@@ -102,4 +102,37 @@ padding-top: 50px;
 margin-top: 0;
 }
 
+@media screen and (max-width: 768px) {
 
+  body {
+      width: 100%;
+  } 
+}
+
+@media screen and (max-width: 480px) {
+
+  body {
+      width: 100%;
+  }
+  .menu nav {
+      flex-direction: column;
+     
+  }
+  .hamburger {
+    display: block;
+    order: 2;
+    cursor: pointer;
+    
+  }
+  .hamburger span{
+      background-color: #fff;
+  }
+  nav {
+    display: none;
+    order: 3;
+    width: 100%;
+  }
+  .toggle-nav:checked ~ nav {
+    display: block;
+  }
+}
