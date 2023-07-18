@@ -266,6 +266,7 @@ aside {
   font-weight: 600;
   line-height: normal;
   padding-top: 120px;
+  cursor: pointer;
 }
 
 form {
@@ -283,6 +284,7 @@ form input {
   border: none;
   border-bottom: 1px solid #979797;
   padding-bottom: 10px;
+  cursor: pointer;
 }
 
 ::placeholder {
