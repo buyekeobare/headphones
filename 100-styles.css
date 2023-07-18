@@ -193,6 +193,7 @@ position: relative;
 top: 80px;
 justify-content: center;
 height: 650px;
+width: 1400px;
 }
 
 .pentagon1 {
@@ -215,7 +216,7 @@ height: 650px;
   font-style: normal;
   font-weight: 700;
   line-height: 26px; /* 56.522% */
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .pentagon3 {
